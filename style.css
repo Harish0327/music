@@ -44,9 +44,8 @@
 }
 .ima{
   background-image: url(pattern-background-desktop.svg);
-background-repeat: no-repeat;
-background-size: 100%;
-padding: 3em;
+  
+
 }
     
           .card button:hover {
