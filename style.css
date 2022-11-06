@@ -14,25 +14,22 @@ body{
 	height: 600px;
 	width: 400px;
  }
-.ima
-{
-  float: left;
-  width: 0%;
-  padding: 10px;
 
+.cointainer{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-a{
-  display:inline-block;
-    width: 200px;
-    text-decoration: #367AF6;
-justify-content: right;
-font-family: 'Times New Roman', Times, serif;
-}
+
   .card2
   {
     box-shadow:gray 1px 3px 8px 4px;
     margin: 0em 1em;
-    
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 10px;
   }
   .price {
     color: grey;
